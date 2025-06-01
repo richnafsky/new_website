@@ -1,0 +1,103 @@
+.header {
+    display: flex;
+    /* background: url(images/war.webp);
+    background-size: contain; */
+    /* justify-content: flex-end; */
+    /* align-content: center; */
+    height: 200px;
+    
+    
+    
+}
+
+
+
+
+.header .inlinks {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+    
+ }
+
+.guns {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.guns img {
+    
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    
+}
+
+.descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+.title p {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title .main_title {
+    
+    font-size: 40pt;
+    font-weight: bold;
+    border-style: groove;
+    text-align: center;
+}
+
+.title .intro {
+    font-size: 20pt;
+    padding-bottom: 25px;
+}
+
+.title div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.models {
+    font-size: 40pt;
+    font-weight: bold;
+    border-style: groove;
+    text-align: center;
+    padding: 15px;
+}
+
+.descriptions {
+    font-style: italic;
+}
+
+#dimes {
+    font-size: 40pt;
+    font-weight: bold;
+    border-style: groove;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.lists {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer {
+    border-style: dotted;
+}

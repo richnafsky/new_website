@@ -4,37 +4,89 @@
         <title>New_Website</title>
     </head>
     <body>
-        <header>
-            <h2>Header Logo</h2>
-            <h5>header link 1</h5>
-            <h5>header link 2</h5>
-            <h5>header link 3</h5>
+        <header class="header">
+            <link rel="stylesheet" href="style.css">
+
+            <div class="inlinks">
+                <a href="#models">MODELS</a>
+                <a href="#prices">PRICES</a>
+                <a href="#dimensions">DIMENSIONS</a>
+            </div>
         </header>
 
         <div class="title">
-            <p>This is a website</p>
-            <p>This website has some subtext that goes under the main title. It is a different contrast as well.</p>
-            <p>This is a placeholder for an image</p></div>
-
-        <div class="info">
-            <p>Some Random information</p>
-            <img src="" alt="">
-            <p>subtext 1</p>
-            <img src="" alt="">
-            <p>subtext 2</p>
-            <img src="" alt="">
-            <p>subtext 3</p>
-            <img src="" alt="">
-            <p>subtext 4</p>
+            <p class="main_title">GLOCK COMPARISON</p>
+            <p class="intro">Here you can dive into the differences of four different Glock firearms. Comparisons consist of dimensions and pricing.</p>
+            <div>
+                 <img src="images/glockpic.jpg">
+            </div>
         </div>
 
-        <div class="quote">
-            <p>misc quote</p>
+            <p class="models" id="models">Glock Models</p>
+
+        <div class="guns">
+            
+            <img src="images/Glock_43.jpg" alt="" class="43">
+    
+            <img src="images/Glock43x.jpg" alt="" class="43x">
+        
+            <img src="images/glock20.webp" alt="" class="20">
+    
+            <img src="images/glock19.webp" alt="" class="19">
+
+            
+        </div>
+            
+            
         </div>
 
-        <footer>
+        <div class="descriptions">
+            <p class="43">Glock 43</p>
+            <p class="43x">Glock 43x</p>
+            <p class="20">Glock 20</p>
+            <p class="19">Glock 19</p>
+        </div>
+
+       <div class="dimensions">
+            <p id="dimes">Dimensions</p>
+            <div class="lists">
+            <ul id="43">
+                <li>Length:  6.26 inches</li>
+                <li>Width: 1.06 inches</li>
+                <li>Height: 4.25 inches</li>
+                <li>Trigger Distance: 2.56 inches</li>
+                <li>Weight: 20.64 oz</li>
+            </ul>
+            <ul id="43x">
+                <li>Length:  6.50 inches</li>
+                <li>Width: 1.10 inches</li>
+                <li>Height: 5.04 inches</li>
+                <li>Trigger Distance: 2.64 inches</li>
+                <li>Weight: 23.07 oz</li>
+            </ul>
+            <ul id="20">
+                <li>Length:  8.07 inches</li>
+                <li>Width: 1.34 inches</li>
+                <li>Height: 5.51 inches</li>
+                <li>Trigger Distance: 2.85 inches</li>
+                <li>Weight: 39.86 oz</li>
+            </ul>
+            <ul id="19">
+                <li>Length:  7.36 inches</li>
+                <li>Width: 1.26 inches</li>
+                <li>Height: 5.04 inches</li>
+                <li>Trigger Distance: 2.80 inches</li>
+                <li>Weight: 30.16 oz</li>
+            </ul>
+
+            </div>
+       </div>
+
+
+        <footer class="footer">
             <p>Call to action! It's Time!</p>
-            <p>To sign up for our products, click the button to the right.</p>
+            <p>For further research or pricing information, please click the buttom to the right.</p>
+
         </footer>
     </body>
 </html>
